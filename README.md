@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# What is this?
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project I've created to demonstrate my skills with the following stacks:
+
+- React
+- TypeScript
+- AWS - Amplify
+- AWS - Cognito
+- Redux Toolkit
+
+A simple todo list built without simply following a build guide. 
+
+
 
 ## Available Scripts
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 In the project directory, you can run:
 
