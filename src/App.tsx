@@ -1,25 +1,21 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Todo } from "./components/Todo";
+import { Signin } from "./account/Signin";
+import { Signup } from "./account/Signup";
+import Amplify from "aws-amplify";
+import awsExports from "./aws-exports";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { PrivateRoute } from "./components/PrivateRoute";
+
+Amplify.configure(awsExports);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Route path="/" exact component={Signin} />
+      <Route path="/signup" component={Signup} />
+      <PrivateRoute path="/todos" component={Todo} />
+    </Router>
   );
 }
 
