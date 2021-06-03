@@ -1,6 +1,6 @@
 # What is this?
 
-This is a project I've created to demonstrate my skills with the following stacks:
+This is a sample todo list project I've created to demonstrate my skills with the following stacks:
 
 - React
 - TypeScript
@@ -8,7 +8,10 @@ This is a project I've created to demonstrate my skills with the following stack
 - AWS - Cognito
 - Redux Toolkit
 
-A simple todo list built without simply following a build guide. 
+####Main App
+![Main App](https://i.imgur.com/eCeIMc3.png)
+####Login
+![Login Screen](https://i.imgur.com/guouceZ.png)
 
 
 
