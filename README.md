@@ -8,9 +8,9 @@ This is a sample todo list project I've created to demonstrate my skills with th
 - AWS - Cognito
 - Redux Toolkit
 
-###Main App
+#### Main App
 ![Main App](https://i.imgur.com/eCeIMc3.png)
-###Login
+#### Login
 ![Login Screen](https://i.imgur.com/guouceZ.png)
 
 
